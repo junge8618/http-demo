@@ -17,8 +17,8 @@ public class HttpDemoApplication {
 	@Bean
 	public RestTemplate restTemplate() {
 		SimpleClientHttpRequestFactory simpleClientHttpRequestFactory  = new SimpleClientHttpRequestFactory ();
-		simpleClientHttpRequestFactory.setConnectTimeout(6000);
-		simpleClientHttpRequestFactory.setReadTimeout(6000);
+		simpleClientHttpRequestFactory.setConnectTimeout(60000);
+		simpleClientHttpRequestFactory.setReadTimeout(60000);
 		return new RestTemplate(simpleClientHttpRequestFactory);
 	}
 }

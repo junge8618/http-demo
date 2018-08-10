@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 
 public class ExecutorServiceUtil {
 
-	private static ExecutorService fixedThreadPool = Executors.newFixedThreadPool(10240);
+	private static ExecutorService fixedThreadPool = Executors.newFixedThreadPool(2000);
 	
 	private static boolean isSyncCalResultDb = false;
 	

@@ -55,7 +55,11 @@
 			<artifactId>skylink-framework-model</artifactId>
 			<version>1.0.0</version>
 		</dependency>
-
+<dependency>
+    <groupId>org.jrobin</groupId>
+    <artifactId>jrobin</artifactId>
+    <version>1.5.9</version>
+</dependency>
 
 	</dependencies>
 
